@@ -6,7 +6,10 @@ This script is provided as-is and you run it at your own risk. I've tested it as
 Python 3.6.5 can be installed from: https://www.python.org/
 During the python install process I believe there is an option to install pip. If there isn't, or you forget to check it, you can install pip by following directions here: https://pip.pypa.io/en/stable/installing/
 
-Once python and pip are installed, you should just be able to open a command prompt (winkey+r, type 'cmd', hit enter) and type: pip install frida
+Once python and pip are installed, you should just be able to open a command prompt (winkey+r, type 'cmd', hit enter) and type: 
+'''
+pip install frida
+'''
 Hit enter and frida should install. More information is available here: https://www.frida.re/docs/installation/
 
 Once that's done, you'll want to create a new file on your computer and name it 'whateveryouwant.py'. Open the file with your favorite text editor and copy/paste the code from the .py file on this repository to your file, and save. By default, the script will save text files with the pressure entries in the same location as the script. If you want to supply your own path, you can change the 'filepath = ""' line to something like 'filepath = "D:/Pressure Logs" for example.
