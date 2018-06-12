@@ -12,7 +12,7 @@ pip install frida
 ```
 Hit enter and frida should install. More information is available here: https://www.frida.re/docs/installation/
 
-Once that's done, you'll want to create a new file on your computer and name it 'whateveryouwant.py'. Open the file with your favorite text editor and copy/paste the code from the .py file on this repository to your file, and save. By default, the script will save text files with the pressure entries in the same location as the script. If you want to supply your own path, you can change the ```'filepath = ""'``` line to something like ```'filepath = "D:/Pressure Logs"``` for example.
+Once that's done, you'll want to create a new file on your computer and name it 'whateveryouwant.py'. Open the file with your favorite text editor and copy/paste the code from the ```pressurescipt.py``` file in this repository to your file, and save. By default, the script will save text files with the pressure entries in the same location as the script. If you want to supply your own path, you can change the ```'filepath = ""'``` line near the top of the file to something like ```'filepath = "D:/Pressure Logs"``` for example.
 
 Make sure analyst.exe is running, make sure there is an active hardware profile, and make sure you aren't acquiring anything important in case something bad happens. 
 
